@@ -9,16 +9,6 @@
 - ⟴ Custom URL Buttons (Updates channel, Add To Group, Force Sub, More...)
 
 
-
-
-<p align="center">
-  <img src="https://github.com/GreyMattersBot/url-auto-delete-shortener-bot/blob/main/assets/IMG_20220105_010453-removebg-preview.png" alt="GreyMatter's Bot Logo">
-</p>
-<h1 align="center">
-  <b>GreyMatter's Bot</b>
-</h1>
-
-
 ## Features
 
 - [x] 2GB+ Files Now Support
@@ -40,7 +30,7 @@
 - [x] File Store
 ## Variables
 
-Read [this](https://telegram.dog/GreyMatter_Bots) before you start messing up with your edits.
+Read before you start messing up with your edits.
 
 ### Required Variables
 * `BOT_TOKEN`: Create a bot using [@BotFather](https://telegram.dog/BotFather), and get the Telegram API token.
@@ -66,19 +56,6 @@ Read [this](https://telegram.dog/GreyMatter_Bots) before you start messing up wi
 
 ## Deploy
 You can deploy this bot anywhere.
-
-<i>**[Watch Deploying Tutorial...](https://youtu.be/RWs6sh8m2Uk)**</i>
-
-<details><summary>Deploy To Heroku</summary>
-<p>
-<br>
-<a href="https://heroku.com/deploy?template=https://github.com/greymattersbot/url-auto-delete-shortener-bot">
-  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-</a>
-</p>
-</details>
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?type=git&repository=github.com/GreyMattersBot/url-auto-delete-shortener-bot&branch=koyeb&name=urlshortautofilterbot)
 
 <details><summary>Deploy To VPS</summary>
 <p>
