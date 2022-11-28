@@ -62,7 +62,7 @@ async def give_filter(client, message):
 async def next_page(bot, query):
     ident, req, key, offset = query.data.split("_")
     if int(req) not in [query.from_user.id, 0]:
-        return await query.answer("oKda", show_alert=True)
+        return await query.answer("අනුන්ගෙ ඒවා හොයම්න එපා අම්නේ 🙃", show_alert=True)
     try:
         offset = int(offset)
     except:
@@ -739,7 +739,7 @@ async def auto_filter(client, msg, spoll=False):
             **locals()
         )
     else:
-        cap = f"Requested Movie Name : <code>{search}</code>\n\n\n😌 If the Movie you are looking for is not availble. Then leave a msg below 😌 \n\nExample : \n\nEnter Movie Name (Yesr) tag @admin"
+        cap = f"ඔයා Type කරපු නම : <code>{search}</code>\n\n\nඔයා හොයන ෆිල්ම් එක හෝ ටීවි සීරිස් එක Group එකේ නැද්ද ? 🤕\n\nඑහෙනම් අපේ @MovieClubFamily_Chat Group එකට ඇවිත් අපිව Mention කරලා ඒ ෆිල්ම් එක හෝ සීරිස් එක ඉල්ලගන්න. 🤗\n\nඋදා : Endgame 2019\nStranger Things TV Series"
     if imdb and imdb.get('poster'):
         try:
             hehe =  await message.reply_photo(photo=imdb.get('poster'), caption=cap[:1024],
