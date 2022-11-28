@@ -44,18 +44,7 @@ IMDB = is_enabled((environ.get('IMDB', "False")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), False)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJoin Now: [MCF FilterX Bot](https://t.me/MovieClubFamily)</b>")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", "ɴᴀᴍᴇ: <code>{file_name}</code> \n\nJoin Now: [MCF FilterX Bot](https://t.me/MovieClubFamily)</b>")
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 Title: {title}
-🎭 Genres: {genres}
-📆 Year: {year}
-🌟 Rating: {rating}/ 10 (based on {votes} user ratings.)
-☀️ Languages : {languages}
-📀 RunTime: {runtime} Minutes
-📆 Release Info : {release_date}
-🎛 Countries : {countries}
-
-┏━━━━•❅•°•❈•°•❅•━━━━┓
-   🇱🇰𝐌𝐨𝐯𝐢𝐞𝐂𝐥𝐮𝐛 𝐅𝐚𝐦𝐢𝐥𝐲™🎭
-┗━━━━•❅•°•❈•°•❅•━━━━┛")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "🏷 Title: {title} \n🎭 Genres: {genres}\n📆 Year: {year}\n🌟 Rating: {rating}/ 10 (based on {votes} user ratings.)\n☀️ Languages : {languages}\n📀 RunTime: {runtime} Minutes\n📆 Release Info : {release_date}\n🎛 Countries : {countries}\n\n┏━━━━•❅•°•❈•°•❅•━━━━┓\n🇱🇰𝐌𝐨𝐯𝐢𝐞𝐂𝐥𝐮𝐛 𝐅𝐚𝐦𝐢𝐥𝐲™🎭\n┗━━━━•❅•°•❈•°•❅•━━━━┛")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "False"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
