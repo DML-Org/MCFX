@@ -26,14 +26,14 @@ async def answer(bot, query):
     if not await inline_users(query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='okDa',
+                           switch_pm_text='අනුන්ගෙ ඒවා හොයම්න එපා අම්නේ 🙃',
                            switch_pm_parameter="hehe")
         return
 
     if AUTH_CHANNEL and not await is_subscribed(bot, query):
         await query.answer(results=[],
                            cache_time=0,
-                           switch_pm_text='You have to subscribe my channel to use the bot',
+                           switch_pm_text='අපේ MovieClub Updates චැනලට Join වෙලා නෑ නේද ඔයා 😒💔',
                            switch_pm_parameter="subscribe")
         return
 
