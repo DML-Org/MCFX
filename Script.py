@@ -14,7 +14,7 @@ class script(object):
     HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://beingtek.com/ref/GreyMatter658')
     START_TXT = environ.get("START_TXT", '''<b>🙏 ආයුබෝවන් {}\nMovieClub Family සමූහයේ චිත්‍රපට හා රූපවාහිනී කතාමාලා ලබාදෙන Bot තමයි මම.</b>
 
-<i>ඒ වගේම අපේ සමූහයෙන් ඔයාට චිත්‍රපටි ගන්න ඕනෙනම් අපෙ MovieClub Updates චැනල් එකට Join වෙලා ඉන්න ඕනි. පල්ලෙහා 👇 MovieClub Updates කියන Button එක ඔබලා අපේ චැනල් එකට Join වෙන්න. ❤️</i>''')
+<i>ඒ වගේම අපේ සමූහයෙන් ඔයාට චිත්‍රපටි ගන්න ඕනෙනම් අපෙ MovieClub Updates චැනල් එකට Join වෙලා ඉන්න ඕනි. පල්ලෙහා 👇 Updates කියන Button එක ඔබලා අපේ චැනල් එකට Join වෙන්න. ❤️</i>''')
     HELP_TXT = """𝙷𝙴𝚈 {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝙼𝚈 𝙷𝙴𝙻𝙿 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """<b><i>🤖 My Name : MCF FilterX\n
