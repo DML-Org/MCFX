@@ -7,6 +7,7 @@ umongo
 requests
 bs4
 imdbpy==2021.4.18
+git+https://github.com/cinemagoer/cinemagoer
 pynewtonmath
 pytz
 aiohttp
