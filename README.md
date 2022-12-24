@@ -60,11 +60,9 @@ You can deploy this bot anywhere.
 <details><summary>Deploy To VPS</summary>
 <p>
 <pre>
-git clone https://github.com/DML-Org/MCF
-cd MCF
+git clone https://github.com/DML-Org/MCFX
+cd MCFX
 pip3 install -U -r requirements.txt
-python3 bot.py
-
 nohup python3 bot.py &
 
 </pre>
